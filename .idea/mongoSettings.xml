@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+<<<<<<< HEAD
+    <option name="shellPath" value="C:\Program Files\MongoDB\Server\3.6\bin\mongo" />
+=======
+    <option name="shellPath" value="C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe" />
+>>>>>>> c90026565267e8abcc5e12aa022e989fdb6b80fa
+  </component>
+</project>

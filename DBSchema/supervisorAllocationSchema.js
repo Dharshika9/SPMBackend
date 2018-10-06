@@ -4,20 +4,20 @@ const supervisorAllocationSchema = new Schema({
 
     studentname:{
         type: String,
-        require:true
+         required:true
     },
 
     supervisorname:{
         type:String,
-        required:true
+         required:true
     },
     allocatedDate:{
         type:String,
-        required:true
+         required:true
     },
     allocatedSection:{
         type:String,
-        required:true
+         required:true
     },
     allocatedRole:{
         type:String,

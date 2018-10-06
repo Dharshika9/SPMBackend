@@ -16,7 +16,13 @@ const FormI1Schema = new Schema({
         type:Number,
         require:true
     },
-
+    form: 
+    {
+        //data: Buffer, 
+        //contentType: String
+        type:String,
+        required:true
+    },
 
 
 })

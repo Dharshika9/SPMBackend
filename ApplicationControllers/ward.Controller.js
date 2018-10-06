@@ -1,4 +1,4 @@
-                      var mongoose    = require('../DBSchema/DBConfig');
+var mongoose    = require('../DBSchema/DBConfig');
 var wardSchema 	= mongoose.model('wardDetails');
 var wardController = function() {
 

@@ -12,7 +12,8 @@ const loginRoute = require('./ApplicationRoutes/login.routes');
 const patientRoutes = require('./ApplicationRoutes/patient.routes');
 const laborityTestRoute = require('./ApplicationRoutes/laborityTest.routes');
 const MedicineRoute = require('./ApplicationRoutes/Medicine.routes');
-
+const studentRoute = require ('./ApplicationRoutes/studentRegistrationRoute');
+const formI1 = require ('./ApplicationRoutes/formi1Route');
 
 
 
@@ -25,6 +26,7 @@ router.use('/login/' , loginRoute);
 router.use('/patients/' , patientRoutes);
 router.use('/Test/',laborityTestRoute);
 
+router.use('/formI1',formI1);
 
 
 

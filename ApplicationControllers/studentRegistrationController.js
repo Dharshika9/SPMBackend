@@ -12,6 +12,7 @@ var studentRegistrationController = function() {
                 email:supervisorAllocationInstance.email,
                 telephone:supervisorAllocationInstance.telephone
             });
+
             registration.save().then(() => {
                 resolve({'status': 200, 'message':' Student Registration  successful!'});
             }).catch(err => {
@@ -20,6 +21,15 @@ var studentRegistrationController = function() {
         })
     }
 
+    this.getAll = function() {
+        return new Promise((resolve, reject) => {
+            StudentSchema.find().exec().then(data => {
+                resolve({'status': 200, 'message':'Get all students', 'data': data});
+            }).catch(err => {
+                reject({'status': 404, 'message':'err:-'+err});
+            })
+        })
+    }
 
 
 

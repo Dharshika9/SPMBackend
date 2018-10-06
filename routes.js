@@ -25,8 +25,8 @@ router.use('/medicine/' , MedicineRoute);
 router.use('/login/' , loginRoute);
 router.use('/patients/' , patientRoutes);
 router.use('/Test/',laborityTestRoute);
-
-router.use('/formI1',formI1);
+router.use('/students/',studentRoute);
+router.use('/formI1/',formI1);
 
 
 

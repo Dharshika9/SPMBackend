@@ -3,24 +3,16 @@ const Schema = mongoose.Schema;
 const studentSchema = new Schema({
 
 
-    studentFirstName:{
+    firstName:{
         type:String,
         required:true
     },
-    studentLastName:{
+    lastName:{
         type: String,
         require:true
     },
-    Address:{
+    address:{
         type: String,
-        require:true
-    },
-    year:{
-        type:Number,
-        require:true
-    },
-    semester:{
-        type:Number,
         require:true
     },
     university:{

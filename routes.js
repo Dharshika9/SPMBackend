@@ -13,7 +13,9 @@ const patientRoutes = require('./ApplicationRoutes/patient.routes');
 const laborityTestRoute = require('./ApplicationRoutes/laborityTest.routes');
 const MedicineRoute = require('./ApplicationRoutes/Medicine.routes');
 const studentRoute = require ('./ApplicationRoutes/studentRegistrationRoute');
+const supervisorallocation = require ('./ApplicationRoutes/supervisorAllocationRoute');
 const formI1 = require ('./ApplicationRoutes/formi1Route');
+
 
 
 
@@ -26,7 +28,11 @@ router.use('/login/' , loginRoute);
 router.use('/patients/' , patientRoutes);
 router.use('/Test/',laborityTestRoute);
 
+router.use('/students',studentRoute);
+router.use('/supervisorallocation',supervisorallocation);
+
 router.use('/formI1',formI1);
+
 
 
 
